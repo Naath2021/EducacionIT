@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body{
+    /*
+    color: color de texto, ejemplo #839D9A;
+    background-color: self explanatory, ejemplo #646F4B;
+    font-family: Comfortaa;
+    font-size: 123px;
+    */
+    color:#839D9A;
+    background-color: #646F4B;
+    font-family: Comfortaa;
+    font-family: 123px;;
+}
+
+/*Para escribir en varios lugares a la vez alt + lmb */
+
+header{
+    width: 1200px;
+    height: 128px;
+    background-color: #839D9A;
+    margin: auto;
+}
+
+main{
+    width: 1200px;
+    height: 630px;
+    background-color: #fff;
+    margin: auto;
+}
+footer{
+    width: 1200px;
+    height: 216px;
+    background-color: #839D9A;
+    margin: auto;
+}

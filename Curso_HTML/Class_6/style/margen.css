@@ -1,0 +1,28 @@
+body{
+    background-color: #3C153B;
+    margin: 0;
+}
+
+main{
+    background-color: #89BD9E;
+    width: 768px;
+    margin: auto; /*m:a = margin: auto;*/
+    margin-top: 65px;
+}
+
+#section_1{
+    background-color: #F0C987;
+    margin: 20px 40px 20px 40px;
+    height: 240px;
+}
+
+
+    #section_1 img{
+        margin: 48px;
+        /*width: 64px cambia el tamaño de la imagen*/
+    }
+
+    #section_1 #mp3{
+        margin: 48px 96px;
+        
+    }

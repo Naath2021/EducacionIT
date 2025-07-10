@@ -1,0 +1,5 @@
+SHORTCUTS
+
+ALT + Z = Extender textos hacia abajo, cuando extiende limites de la pantalla. 
+br = Salto de linea (line break)
+c = comentario

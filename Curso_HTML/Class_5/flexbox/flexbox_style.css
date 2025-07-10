@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body{
+    background-color: #2D3142;
+}
+
+main{
+    font-family: Comfortaa;
+    width: 768px;
+    height: 800px;
+    background-color: #4F5D75;
+    margin: auto;
+}
+
+#section_1 {
+    /*Distribución de contenido en eje horizaontal*/
+    display: flex;
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+    justify-content: space-evenly;
+    width: 600px;
+    background-color: #EF8354;  
+    height: 150px;
+    /*Distribución de contenido en eje vertical*/
+}
+
+
+#section_2 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    width: 600px;
+    background-color: #EF8354;
+    height: 150px;
+    margin: 24px 0px;
+}
+
+#section_1 article{
+    border: 1px solid white;
+    width: 150px;
+    height: 100px;
+}
+
+#section_2 article{
+    border: 1px solid white;
+    width: 150px;
+    height: 100px;
+}
