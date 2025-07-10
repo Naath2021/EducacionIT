@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: "Roboto", sans-serif; 
+   background-color: #72531E;
+   color: white;
+   margin: auto;
+}
+
+header{
+    background-color: #6B1C1D;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #72531E;
+    font-size: 12px;
+    margin: 0 8px;
+}
+
+#inscribete_button{
+    background-color: #BE8B29;
+}
+
+header nav a:hover{
+    background-color: #B0382A;
+}
+
+main{ 
+    width: 1000px;
+    min-height: 760px;
+    background-color: #BE8B29;
+    margin: auto;
+}
+
+#hero-banner{
+    background-image: url(/Class_8/img/hero-banner.png);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    #hero-banner h1{
+        font-size: 40px;
+        padding: 12px 24px;
+    }
+
+footer{
+    height: 176px;
+    background-color: #EABD26;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #6B1C1D;
+    background: linear-gradient(90deg, rgba(107, 28, 29, 1) 10%, rgba(176, 56, 42, 1) 43%, rgba(234, 189, 38, 1) 95%);
+}
+
+    footer nav a{
+        background-color: rgb(160, 137, 102);
+        padding: 8px 16px;
+        text-decoration: none;
+        color: white;
+        margin: 0 8px;
+        border-radius: 8px;
+        font-size: 12px;
+        margin: 0 20px;
+    }
+
+    footer nav a:hover{
+        background-color: #BE8B29;
+    }
+
+        footer div a{
+            margin: 0 22px;
+        }
